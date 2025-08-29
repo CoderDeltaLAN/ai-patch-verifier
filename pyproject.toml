@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ai-patch-verifier"
-version = "0.1.0"
+version = "0.1.1"
 description = "Verify AI-generated code patches with a trust score. CLI + CI."
 authors = ["CoderDeltaLAN <coderdeltalan.cargo784@8alias.com>"]
 license = "MIT"
