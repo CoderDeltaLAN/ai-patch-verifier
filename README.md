@@ -259,8 +259,11 @@ Funds help with:
 
 14) License
 -----------
-MIT. See [LICENSE](LICENSE). Every source file must include a header with copyright and URL:  
-https://github.com/CoderDeltaLAN/ai-patch-verifier
+MIT. See [LICENSE](LICENSE).
+
+Every source file must include:
+- Copyright header (owner + year).
+- Project URL: <https://github.com/CoderDeltaLAN/ai-patch-verifier\>
 
 15) Author
 ----------
