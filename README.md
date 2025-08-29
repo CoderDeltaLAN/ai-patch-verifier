@@ -38,6 +38,7 @@ Table of Contents
 11) FAQ  
 12) Contributing  
 13) **Donations & Sponsorship**  
+
 14) License  
 15) Author  
 
@@ -239,27 +240,23 @@ Conventions:
 - Nothing red gets pushed: **all checks must be green**.
 
 13) Donations & Sponsorship
----------------------------
 **CoderDeltaLAN OSS Projects**  
 *Apoya el software libre: tus donativos aseguran proyectos limpios, seguros y en evolución constante para la comunidad global.*
 
 - **PayPal:**  
   👉 **[Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=YVENCBNCZWVPW)**
-![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
-![Release](https://img.shields.io/github/v/release/CoderDeltaLAN/ai-patch-verifier)
 
 - **Badge (para otros repos):**
-  ```md
-  [![Donate](https://img.shields.io/badge/Donate-PayPal-0070ba.svg?logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=YVENCBNCZWVPW)
-![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
-![Release](https://img.shields.io/github/v/release/CoderDeltaLAN/ai-patch-verifier)
-  ```
+```md
+[![Donate](https://img.shields.io/badge/Donate-PayPal-0070ba.svg?logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=YVENCBNCZWVPW)
+```
 
 Funds help with:
 - CI minutes & runners, packaging releases, docs & examples
 - Issue triage, security updates, roadmap features
 
 **Gracias por apoyar el ecosistema open-source.**
+
 14) License
 -----------
 MIT. See [LICENSE](LICENSE). Every source file must include a header with copyright and URL:  
