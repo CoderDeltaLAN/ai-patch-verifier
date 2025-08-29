@@ -86,22 +86,15 @@ changes lacking proper headers.
          └─────────────────────────────────┘
 
 Heuristics (ASCII visual)
--------------------------
-+--------------+----------------------------+
-| Signal       | Effect on Trust Score      |
-+--------------+----------------------------+
-| Changes in   | +10                        |
-| test files   |                            |
-|              |  [##########]              |
-+--------------+----------------------------+
-| TODO/FIXME   | -10                        |
-| detected     |  [######....]              |
-+--------------+----------------------------+
-| Binary       | -10                        |
-| patches      |  [######....]              |
-+--------------+----------------------------+
-Base score: 70. Result is clamped to [0, 100].
+> The Trust Score starts at **70** and is clamped to **0..100**.
 
+| Signal                     | Effect on Trust Score | Visual hint    |
+|---------------------------|-----------------------|----------------|
+| Changes in **test files** | **+10**               | `[##########]` |
+| **TODO/FIXME** detected   | **−10**               | `[######....]` |
+| **Binary patches**        | **−10**               | `[######....]` |
+
+*Final score = clamp( 70 + bonuses − penalties, 0, 100 ).*
 4) Installation
 ---------------
 With Poetry (recommended for development):
