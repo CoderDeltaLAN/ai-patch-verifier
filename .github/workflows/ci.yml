@@ -25,7 +25,7 @@ jobs:
       - name: Ruff format
         run: poetry run ruff format .
 
-      - name: Black check
+      - name: Black check/format
         run: poetry run black .
 
       - name: Pytest + Coverage 100%
@@ -43,6 +43,6 @@ jobs:
         run: |
           python -m venv .venv_smoke
           . .venv_smoke/bin/activate
-          pip install --upgrade pip
+          pip install -U pip
           pip install dist/*.whl
-          aipatch --help
+          aipatch --help > /dev/null
