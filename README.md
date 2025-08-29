@@ -1,5 +1,3 @@
-[![CI](https://github.com/CoderDeltaLAN/ai-patch-verifier/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CoderDeltaLAN/ai-patch-verifier/actions/workflows/ci.yml)
-
 AI PATCH VERIFIER
 =================
 (Project: ai-patch-verifier)
