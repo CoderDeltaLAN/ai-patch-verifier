@@ -3,8 +3,9 @@
 # License: MIT
 from pathlib import Path
 
-from ai_patch_verifier.cli import app
 from typer.testing import CliRunner
+
+from ai_patch_verifier.cli import app
 
 runner = CliRunner()
 
