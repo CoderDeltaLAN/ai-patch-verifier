@@ -95,6 +95,7 @@ Heuristics (ASCII visual)
 | **Binary patches**        | **−10**               | `[######....]` |
 
 *Final score = clamp( 70 + bonuses − penalties, 0, 100 ).*
+
 4) Installation
 ---------------
 With Poetry (recommended for development):
@@ -236,6 +237,7 @@ Conventions:
 - Nothing red gets pushed: **all checks must be green**.
 
 13) Donations & Sponsorship
+---------------------------
 **CoderDeltaLAN OSS Projects**  
 *Apoya el software libre: tus donativos aseguran proyectos limpios, seguros y en evolución constante para la comunidad global.*
 
