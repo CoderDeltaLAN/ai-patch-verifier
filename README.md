@@ -2,6 +2,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Coverage](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg)](#)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-0070ba.svg?logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=YVENCBNCZWVPW)
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![Release](https://img.shields.io/github/v/release/CoderDeltaLAN/ai-patch-verifier)
 
 AI PATCH VERIFIER
 =================
@@ -243,10 +245,14 @@ Conventions:
 
 - **PayPal:**  
   👉 **[Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=YVENCBNCZWVPW)**
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![Release](https://img.shields.io/github/v/release/CoderDeltaLAN/ai-patch-verifier)
 
 - **Badge (para otros repos):**
   ```md
   [![Donate](https://img.shields.io/badge/Donate-PayPal-0070ba.svg?logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=YVENCBNCZWVPW)
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![Release](https://img.shields.io/github/v/release/CoderDeltaLAN/ai-patch-verifier)
   ```
 
 Funds help with:
