@@ -267,6 +267,12 @@ Every source file must include:
 
 15) Author
 ----------
-CoderDeltaLAN (Yosvel)  
-Contact: coderdeltalan.cargo784@8alias.com  
+CoderDeltaLAN (Yosvel)
+
+Contact:
+```text
+coderdeltalan.cargo784@8alias.com
+```
+[Send email](mailto:coderdeltalan.cargo784@8alias.com)
+
 Repository: https://github.com/CoderDeltaLAN/ai-patch-verifier
