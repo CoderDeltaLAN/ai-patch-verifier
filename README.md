@@ -241,12 +241,12 @@ Conventions:
 
 13) Donations & Sponsorship
 **CoderDeltaLAN OSS Projects**  
-*Apoya el software libre: tus donativos aseguran proyectos limpios, seguros y en evolución constante para la comunidad global.*
+*Support open‑source: your donations keep projects clean, secure, and continuously evolving for the global community.*
 
 - **PayPal:**  
   👉 **[Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=YVENCBNCZWVPW)**
 
-- **Badge (para otros repos):**
+- **Badge (for other repositories):**
 ```md
 [![Donate](https://img.shields.io/badge/Donate-PayPal-0070ba.svg?logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=YVENCBNCZWVPW)
 ```
@@ -255,9 +255,9 @@ Funds help with:
 - CI minutes & runners, packaging releases, docs & examples
 - Issue triage, security updates, roadmap features
 
-**Gracias por apoyar el ecosistema open-source.**
+**Thank you for supporting the open‑source ecosystem.**
 
-14) License
+15) License
 -----------
 MIT. See [LICENSE](LICENSE).
 
@@ -265,14 +265,13 @@ Every source file must include:
 - Copyright header (owner + year).
 - Project URL: <https://github.com/CoderDeltaLAN/ai-patch-verifier\>
 
-15) Author
 ----------
 CoderDeltaLAN (Yosvel)
 
-Contact:
+Contact: `coderdeltalan.cargo784@8alias.com`
 ```text
 coderdeltalan.cargo784@8alias.com
 ```
-[Send email](mailto:coderdeltalan.cargo784@8alias.com)
 
 Repository: https://github.com/CoderDeltaLAN/ai-patch-verifier
+
