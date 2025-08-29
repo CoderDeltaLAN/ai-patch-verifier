@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "ai-patch-verifier"
+version = "0.1.0"
+description = "Verify AI-generated code patches with a trust score. CLI + CI."
+authors = ["CoderDeltaLAN <coderdeltalan.cargo784@8alias.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "ai_patch_verifier", from = "src" }]
+
+[tool.poetry.dependencies]
+click = ">=8.1,<8.2"
+python = "^3.11"
+typer = "^0.12.3"
+rich = "^13.7.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+ruff = "^0.5.7"
+black = "^24.8.0"
+pytest-cov = "^6.2.1"
+twine = "^6.1.0"
+
+[tool.poetry.scripts]
+aipatch = "ai_patch_verifier.cli:app"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"

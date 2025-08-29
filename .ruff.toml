@@ -1,0 +1,10 @@
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = ["E", "F", "I", "UP", "B", "S"]
+ignore = []
+
+[lint.per-file-ignores]
+# Tests pueden usar patrones más flexibles
+"tests/*" = ["S", "B"]
